@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="fb847968-ad4a-4cb2-8cd3-cd6f3470b379" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3330">
+              <caret line="222" column="54" lean-forward="true" selection-start-line="222" selection-start-column="54" selection-end-line="222" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\&lt;\?xml version\=\&quot;1\.0\&quot; encoding\=\&quot;UTF\-8\&quot;\?\&gt;\n\&lt;project xmlns\=\&quot;http\:\/\/maven\.apache\.org\/POM\/4\.0\.0\&quot;\n         xmlns\:xsi\=\&quot;http\:\/\/www\.w3\.org\/2001\/XMLSchema\-instance\&quot;\n         xsi\:schemaLocation\=\&quot;http\:\/\/maven\.apache\.org\/POM\/4\.0\.0 http\:\/\/maven\.apache\.org\/xsd\/maven\-4\.0\.0\.xsd\&quot;\&gt;\n    \&lt;modelVersion\&gt;4\.0\.0\&lt;\/modelVersion\&gt;\n\n    \&lt;groupId\&gt;com\.taotao\&lt;\/groupId\&gt;\n    \&lt;artifactId\&gt;taotao\-parent\&lt;\/artifactId\&gt;\n    \&lt;version\&gt;1\.0\-SNAPSHOT\&lt;\/version\&gt;\n\n\n    \&lt;\!\-\- 集中定义依赖版本号 \-\-\&gt;\n    \&lt;properties\&gt;\n    \&lt;junit\.version\&gt;4\.12\&lt;\/junit\.version\&gt;\n    \&lt;spring\.version\&gt;4\.2\.4\.RELEASE\&lt;\/spring\.version\&gt;\n    \&lt;mybatis\.version\&gt;3\.2\.8\&lt;\/mybatis\.version\&gt;\n    \&lt;mybatis\.spring\.version\&gt;1\.2\.2\&lt;\/mybatis\.spring\.version\&gt;\n    \&lt;mybatis\.paginator\.version\&gt;1\.2\.15\&lt;\/mybatis\.paginator\.version\&gt;\n    \&lt;mysql\.version\&gt;5\.1\.32\&lt;\/mysql\.version\&gt;\n    \&lt;slf4j\.version\&gt;1\.6\.4\&lt;\/slf4j\.version\&gt;\n    \&lt;jackson\.version\&gt;2\.4\.2\&lt;\/jackson\.version\&gt;\n    \&lt;druid\.version\&gt;1\.0\.9\&lt;\/druid\.version\&gt;\n    \&lt;httpclient\.version\&gt;4\.3\.5\&lt;\/httpclient\.version\&gt;\n    \&lt;jstl\.version\&gt;1\.2\&lt;\/jstl\.version\&gt;\n    \&lt;servlet\-api\.version\&gt;2\.5\&lt;\/servlet\-api\.version\&gt;\n    \&lt;jsp\-api\.version\&gt;2\.0\&lt;\/jsp\-api\.version\&gt;\n    \&lt;joda\-time\.version\&gt;2\.5\&lt;\/joda\-time\.version\&gt;\n    \&lt;commons\-lang3\.version\&gt;3\.3\.2\&lt;\/commons\-lang3\.version\&gt;\n    \&lt;commons\-io\.version\&gt;1\.3\.2\&lt;\/commons\-io\.version\&gt;\n    \&lt;commons\-net\.version\&gt;3\.3\&lt;\/commons\-net\.version\&gt;\n    \&lt;pagehelper\.version\&gt;3\.4\.2\-fix\&lt;\/pagehelper\.version\&gt;\n    \&lt;jsqlparser\.version\&gt;0\.9\.1\&lt;\/jsqlparser\.version\&gt;\n    \&lt;commons\-fileupload\.version\&gt;1\.3\.1\&lt;\/commons\-fileupload\.version\&gt;\n    \&lt;jedis\.version\&gt;2\.7\.2\&lt;\/jedis\.version\&gt;\n    \&lt;solrj\.version\&gt;4\.10\.3\&lt;\/solrj\.version\&gt;\n    \&lt;dubbo\.version\&gt;2\.5\.3\&lt;\/dubbo\.version\&gt;\n    \&lt;zookeeper\.version\&gt;3\.4\.7\&lt;\/zookeeper\.version\&gt;\n    \&lt;zkclient\.version\&gt;0\.1\&lt;\/zkclient\.version\&gt;\n    \&lt;activemq\.version\&gt;5\.11\.2\&lt;\/activemq\.version\&gt;\n    \&lt;freemarker\.version\&gt;2\.3\.23\&lt;\/freemarker\.version\&gt;\n    \&lt;quartz\.version\&gt;2\.2\.2\&lt;\/quartz\.version\&gt;\n    \&lt;\/properties\&gt;\n    \&lt;dependencyManagement\&gt;\n    \&lt;dependencies\&gt;\n    \&lt;\!\-\- 时间操作组件 \-\-\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;joda\-time\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;joda\-time\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{joda\-time\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;\!\-\- Apache工具组件 \-\-\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.apache\.commons\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;commons\-lang3\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{commons\-lang3\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.apache\.commons\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;commons\-io\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{commons\-io\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;commons\-net\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;commons\-net\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{commons\-net\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;\!\-\- Jackson Json处理工具包 \-\-\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;com\.fasterxml\.jackson\.core\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;jackson\-databind\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{jackson\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;\!\-\- httpclient \-\-\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.apache\.httpcomponents\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;httpclient\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{httpclient\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;\!\-\- quartz任务调度框架 \-\-\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.quartz\-scheduler\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;quartz\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{quartz\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;\!\-\- 单元测试 \-\-\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;junit\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;junit\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{junit\.version\}\&lt;\/version\&gt;\n        \&lt;scope\&gt;test\&lt;\/scope\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;\!\-\- 日志处理 \-\-\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.slf4j\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;slf4j\-log4j12\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{slf4j\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;\!\-\- Mybatis \-\-\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.mybatis\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;mybatis\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{mybatis\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.mybatis\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;mybatis\-spring\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{mybatis\.spring\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;com\.github\.miemiedev\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;mybatis\-paginator\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{mybatis\.paginator\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;com\.github\.pagehelper\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;pagehelper\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{pagehelper\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;\!\-\- MySql \-\-\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;mysql\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;mysql\-connector\-java\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{mysql\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;\!\-\- 连接池 \-\-\&gt;\n    \&lt;dependency\&gt;\n    \&lt;groupId\&gt;com\.alibaba\&lt;\/groupId\&gt;\n    \&lt;artifactId\&gt;druid\&lt;\/artifactId\&gt;\n    \&lt;version\&gt;\$\{druid\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;\!\-\- Spring \-\-\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.springframework\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;spring\-context\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{spring\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.springframework\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;spring\-beans\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{spring\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.springframework\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;spring\-webmvc\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{spring\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.springframework\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;spring\-jdbc\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{spring\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.springframework\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;spring\-aspects\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{spring\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.springframework\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;spring\-jms\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{spring\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.springframework\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;spring\-context\-support\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{spring\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;\!\-\- JSP相关 \-\-\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;jstl\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;jstl\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{jstl\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;javax\.servlet\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;servlet\-api\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{servlet\-api\.version\}\&lt;\/version\&gt;\n        \&lt;scope\&gt;provided\&lt;\/scope\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;javax\.servlet\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;jsp\-api\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{jsp\-api\.version\}\&lt;\/version\&gt;\n        \&lt;scope\&gt;provided\&lt;\/scope\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;\!\-\- 文件上传组件 \-\-\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;commons\-fileupload\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;commons\-fileupload\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{commons\-fileupload\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;\!\-\- Redis客户端 \-\-\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;redis\.clients\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;jedis\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{jedis\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;\!\-\- solr客户端 \-\-\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.apache\.solr\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;solr\-solrj\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{solrj\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;\!\-\- dubbo相关 \-\-\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;com\.alibaba\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;dubbo\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{dubbo\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;dependency\&gt;\n        \&lt;groupId\&gt;org\.apache\.zookeeper\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;zookeeper\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;\$\{zookeeper\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n    \&lt;dependency\&gt;\n    \&lt;groupId\&gt;com\.github\.sgroschupf\&lt;\/groupId\&gt;\n    \&lt;artifactId\&gt;zkclient\&lt;\/artifactId\&gt;\n    \&lt;version\&gt;\$\{zkclient\.version\}\&lt;\/version\&gt;\n    \&lt;\/dependency\&gt;\n        \&lt;dependency\&gt;\n            \&lt;groupId\&gt;org\.apache\.activemq\&lt;\/groupId\&gt;\n            \&lt;artifactId\&gt;activemq\-all\&lt;\/artifactId\&gt;\n            \&lt;version\&gt;\$\{activemq\.version\}\&lt;\/version\&gt;\n        \&lt;\/dependency\&gt;\n        \&lt;dependency\&gt;\n            \&lt;groupId\&gt;org\.freemarker\&lt;\/groupId\&gt;\n            \&lt;artifactId\&gt;freemarker\&lt;\/artifactId\&gt;\n            \&lt;version\&gt;\$\{freemarker\.version\}\&lt;\/version\&gt;\n        \&lt;\/dependency\&gt;\n\n    \&lt;\/dependencies\&gt;\n    \&lt;\/dependencyManagement\&gt;\n\n    \&lt;build\&gt;\n    \&lt;finalName\&gt;\$\{project\.artifactId\}\&lt;\/finalName\&gt;\n    \&lt;plugins\&gt;\n        \&lt;\!\-\- 资源文件拷贝插件 \-\-\&gt;\n        \&lt;plugin\&gt;\n            \&lt;groupId\&gt;org\.apache\.maven\.plugins\&lt;\/groupId\&gt;\n            \&lt;artifactId\&gt;maven\-resources\-plugin\&lt;\/artifactId\&gt;\n            \&lt;version\&gt;2\.7\&lt;\/version\&gt;\n            \&lt;configuration\&gt;\n                \&lt;encoding\&gt;UTF\-8\&lt;\/encoding\&gt;\n            \&lt;\/configuration\&gt;\n        \&lt;\/plugin\&gt;\n        \&lt;\!\-\- java编译插件 \-\-\&gt;\n        \&lt;plugin\&gt;\n            \&lt;groupId\&gt;org\.apache\.maven\.plugins\&lt;\/groupId\&gt;\n            \&lt;artifactId\&gt;maven\-compiler\-plugin\&lt;\/artifactId\&gt;\n            \&lt;version\&gt;3\.2\&lt;\/version\&gt;\n            \&lt;configuration\&gt;\n                \&lt;source\&gt;1\.7\&lt;\/source\&gt;\n                \&lt;target\&gt;1\.7\&lt;\/target\&gt;\n                \&lt;encoding\&gt;UTF\-8\&lt;\/encoding\&gt;\n            \&lt;\/configuration\&gt;\n        \&lt;\/plugin\&gt;\n    \&lt;\/plugins\&gt;\n    \&lt;pluginManagement\&gt;\n    \&lt;plugins\&gt;\n    \&lt;\!\-\- 配置Tomcat插件 \-\-\&gt;\n    \&lt;plugin\&gt;\n    \&lt;groupId\&gt;org\.apache\.tomcat\.maven\&lt;\/groupId\&gt;\n        \&lt;artifactId\&gt;tomcat7\-maven\-plugin\&lt;\/artifactId\&gt;\n        \&lt;version\&gt;2\.2\&lt;\/version\&gt;\n    \&lt;\/plugin\&gt;\n    \&lt;\/plugins\&gt;\n    \&lt;\/pluginManagement\&gt;\n    \&lt;\/build\&gt;\n\&lt;\/project\&gt;</find>
+      <find>pagehelper</find>
+      <find>solrj.version</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="taotao-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="taotao-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="203" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="taotao-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb847968-ad4a-4cb2-8cd3-cd6f3470b379" name="Default" comment="" />
+      <created>1523194975347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523194975347</updated>
+      <workItem from="1523194999724" duration="572000" />
+      <workItem from="1523195799796" duration="786000" />
+      <workItem from="1523253009800" duration="1730000" />
+      <workItem from="1523279561732" duration="4685000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7773000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/3.4.2/pagehelper-3.4.2.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3330">
+          <caret line="222" column="54" lean-forward="true" selection-start-line="222" selection-start-column="54" selection-end-line="222" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>taotao-parent</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
